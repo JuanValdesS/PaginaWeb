@@ -9,30 +9,82 @@
 </head>
 <body>
 
-    <!-- Fila para el encabezado -->
-    <nav class="nav">
-        <a href="#" class="nav-link active" arria-current="page">Inicio</a>
-        <a href="#" class="nav-link">Galería</a>
-        <a href="#" class="nav-link">Contacto</a>
-    </nav>
+    <div class="container-fluid">
+        <div id = "texto" class="row">
+            <div class="col-3">
+                <img src="img/logo.svg" alt="Logo USM">
+            </div>
+            <div class="col-9">
+                <!-- Fila para el encabezado -->
+                <nav id="texto2" class="nav justify-content-end">
+                    <a href="#" class="nav-link active" arria-current="page">Inicio</a>
+                    <a href="#columna2" class="nav-link">Coaching</a>
+                    <a href="#columna4" class="nav-link">eetcafe</a>
+                    <a href="#columna5" class="nav-link">Support</a>
+                </nav>
+            </div>
+        </div>
 
-    <!-- Fila para el contenido principal -->
-    <div class="row">
-        <div class="col-md-8" style="background-color: aqua;">
-            <h1>Sección de Menú para programadores.</h1>
-            <p>Esta sección debe ser más grande que la de la derecha.</p>
+        <!-- Fila para el contenido principal -->
+        <div class="row">
+            <div id = "columna" class="col" style="background-color: #6dccaa;">
+                <img src="img/vegan.jpg" alt="vegan">
+            </div>
         </div>
-        <div class="col-md-4" style="background-color: coral;">
-            Espacio 5
+    
+        <!-- Fila para el pie de página -->
+        <div id = "columna2" class="row">
+            <div class="col" style="background-color: #6dccaa;">
+                <p class="primer_parrafo">Siguenos en nuestras redes</p>
+                <p class="primer_parrafo">Siguenos en nuestras redes</p>
+            </div>
         </div>
-    </div>
 
-    <!-- Fila para el pie de página -->
-    <div class="row">
-        <div class="col-12" style="background-color: cornflowerblue;">
-            Footer
+        <div class="row">
+            <div id = "columna3" class="col-6" style="background-color:white; margin-top: 100px;">
+                <h1 class="texto3" style="font-size: 4rem;">Coaching</h1>
+                <h2 class="texto3" style="font-size: 2rem;">Health & Happiness</h2>
+                <p class="texto3" style="font-size: 1.5rem;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti commodi veniam ea, velit quas voluptatibus accusantium modi, soluta, aut laudantium non fuga at animi nostrum? Ab perspiciatis voluptates doloribus.
+                </p>          
+            </div>
+
+            <div id = "columna3" class="col-6" style="background-color:white;margin-top: 100px;">
+                <img src="img/radijs.jpg" alt="rabano" style="max-width: 100%;">
+            </div>
+
+            <div id = "columna3" class="col-6" style="background-color:white;">
+                <img src="img/knoflook.jpg" alt="ajo" style="max-width: 100%;">            
+            </div>
+            
+            <div id = "columna3" class="col-6" style="background-color:white;">
+                <h1 style="font-size: 4rem;">Coaching</h1>
+                <h2 style="font-size: 2rem;">Health & Happiness</h2>
+                <p style="font-size: 1.5rem;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti commodi veniam ea, velit quas voluptatibus accusantium modi, soluta, aut laudantium non fuga at animi nostrum? Ab perspiciatis voluptates doloribus.
+                </p>   
+            </div>
         </div>
+
+        <div class="row">
+            <div id = "columna4" class="col" style="background-color: #FFCF3F;">
+                <img src="img/eetcafe.jpg" alt="berries" style="max-width: 100%;"> 
+            </div>
+        </div>
+
+        <form id = "columna5" class="row">
+            <div id = "columnaimg" class="col" style="background-color:darkgrey;">
+                <img src="img/logo.svg" alt="Logo crudo" style="text-align: center;">
+            </div>
+            <div id = "columnainputs" class="col-6" style="background-color: darkgray;">
+                <p>STUDENTS FOR THE LONG TIME</p>
+                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                <input type="password" class="form-control" id="passwordid" placeholder="Escribe tu password">
+            </div>
+        </form>
+
     </div>
+    
 
     <script src="Bootstrap/js/bootstrap.min.js"></script>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -2,3 +2,50 @@
     background-color: black;
 }
 
+#texto{
+    font-size: larger;
+    background-color: #85d4b7;
+    text-align: center;
+}
+
+#texto2{
+    background-color: #85d4b7;
+}
+
+.texto3{
+    text-align: right;
+}
+
+#columna{
+    height: 800px;
+    text-align: center;
+}
+
+#columna3{
+    height: 800px;
+
+}
+
+#columna4{
+    height: 500px;
+    text-align: center;
+}
+
+#columna5{
+    height: 500px;
+}
+
+.primer_parrafo{
+   color:aliceblue;
+}
+
+#columnaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#columnainputs{
+    display: flex;
+    align-items: center;
+}
